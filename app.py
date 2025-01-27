@@ -10,7 +10,7 @@ if "user_email" not in st.session_state:
 
 # Load the Excel file
 def load_data():
-    file_path = "Cost Index.xlsx"
+    file_path = "./Cost Index.xlsx"
     xl = pd.ExcelFile(file_path)
     data = {}
     
